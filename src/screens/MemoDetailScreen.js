@@ -4,7 +4,7 @@ import { StyleSheet, View, Text } from 'react-native';
 import CircleButton from '../elements/CircleButton';
 
 class MemoDetailScreen extends React.Component {
-  render(){
+  render() {
     return (
       <View style={styles.container}>
         <View>
@@ -16,13 +16,15 @@ class MemoDetailScreen extends React.Component {
           </View>
         </View>
 
-          <View style={styles.memoContent}>
-            <Text>
+        <View style={styles.memoContent}>
+          <Text>
               ショップを紹介致します。
-            </Text>
-          </View>
+          </Text>
+        </View>
 
-        <CircleButton color="white" style={styles.editButton}>+</CircleButton>
+        <CircleButton color="white" style={styles.editButton}>
+          {'\uf040'}
+        </CircleButton>
 
       </View>
 

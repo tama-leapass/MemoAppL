@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 
 class BodyText extends React.Component {
-  render(){
+  render() {
     return (
       <View>
         <Text style={styles.text}>

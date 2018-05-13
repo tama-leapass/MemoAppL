@@ -2,18 +2,18 @@ import React from 'react';
 import { StyleSheet, View, Text, TextInput, TouchableHighlight } from 'react-native';
 
 class SignupScreen extends React.Component {
-  render(){
+  render() {
     return (
       <View style={styles.container}>
         <Text style={styles.title}>
           メンバー登録
         </Text>
-        <TextInput style={styles.input} value="Email Address"/>
-        <TextInput style={styles.input} value="Password"/>
-        <TextInput style={styles.input} value="お住いの地域"/>
-        <TextInput style={styles.input} value="性別"/>
-        <TextInput style={styles.input} value="年齢"/>
-        <TextInput style={styles.input} value="登録したお店"/>
+        <TextInput style={styles.input} value="Email Address" />
+        <TextInput style={styles.input} value="Password" />
+        <TextInput style={styles.input} value="お住いの地域" />
+        <TextInput style={styles.input} value="性別" />
+        <TextInput style={styles.input} value="年齢" />
+        <TextInput style={styles.input} value="登録したお店" />
         <TouchableHighlight style={styles.button} onPress={() => {}} underlayColor="#C70F66">
           <Text style={styles.buttonTitle}>送信する</Text>
         </TouchableHighlight>

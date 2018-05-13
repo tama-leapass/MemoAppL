@@ -5,12 +5,14 @@ import MemoList from '../components/MemoList';
 import CircleButton from '../elements/CircleButton';
 
 class MemoListScreen extends React.Component {
-  render(){
+  render() {
     return (
 
       <View style={styles.container}>
         <MemoList />
-        <CircleButton>+</CircleButton>
+        <CircleButton>
+          {'\uf067'}
+        </CircleButton>
       </View>
 
     );

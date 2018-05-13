@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 class Appbar extends React.Component {
-  render(){
+  render() {
     return (
 
       <View style={styles.appbar}>
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
   },
 
   appbarTitle: {
-    color:'#FFF',
+    color: '#FFF',
     fontSize: 18,
   },
 

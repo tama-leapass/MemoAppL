@@ -2,37 +2,37 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 class MemoList extends React.Component {
-  render(){
+  render() {
     return (
 
-        <View style={styles.memoList}>
+      <View style={styles.memoList}>
 
-          <View style={styles.memoListItem}>
-            <Text style={styles.memoTitle}>ショップ</Text>
-            <Text style={styles.memoDate}>2018/05/07</Text>
-          </View>
-
-          <View style={styles.memoListItem}>
-            <Text style={styles.memoTitle}>トピックス</Text>
-            <Text style={styles.memoDate}>2018/05/07</Text>
-          </View>
-
-          <View style={styles.memoListItem}>
-            <Text style={styles.memoTitle}>ゲストトーク</Text>
-            <Text style={styles.memoDate}>2018/05/07</Text>
-          </View>
-
-          <View style={styles.memoListItem}>
-            <Text style={styles.memoTitle}>ニューフェース</Text>
-            <Text style={styles.memoDate}>2018/05/07</Text>
-          </View>
-
-          <View style={styles.memoListItem}>
-            <Text style={styles.memoTitle}>お店情報</Text>
-            <Text style={styles.memoDate}>2018/05/07</Text>
-          </View>
-
+        <View style={styles.memoListItem}>
+          <Text style={styles.memoTitle}>ショップ</Text>
+          <Text style={styles.memoDate}>2018/05/07</Text>
         </View>
+
+        <View style={styles.memoListItem}>
+          <Text style={styles.memoTitle}>トピックス</Text>
+          <Text style={styles.memoDate}>2018/05/07</Text>
+        </View>
+
+        <View style={styles.memoListItem}>
+          <Text style={styles.memoTitle}>ゲストトーク</Text>
+          <Text style={styles.memoDate}>2018/05/07</Text>
+        </View>
+
+        <View style={styles.memoListItem}>
+          <Text style={styles.memoTitle}>ニューフェース</Text>
+          <Text style={styles.memoDate}>2018/05/07</Text>
+        </View>
+
+        <View style={styles.memoListItem}>
+          <Text style={styles.memoTitle}>お店情報</Text>
+          <Text style={styles.memoDate}>2018/05/07</Text>
+        </View>
+
+      </View>
 
     );
   }
