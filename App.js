@@ -1,15 +1,11 @@
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
-
-import Appbar from './src/components/Appbar';
-import SignupScreen from './src/screens/SignupScreen';
+import { StyleSheet, Text, View } from 'react-native';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Appbar />
-        <SignupScreen />
+        <Text>Hello!</Text>
       </View>
     );
   }
